@@ -16,10 +16,10 @@ fisher install aliev/fish
 |---|---|
 | [fzf](https://github.com/junegunn/fzf) | all commands |
 | [git](https://git-scm.com/) | `gitlog`, `gitdiff` |
-| [docker](https://www.docker.com/) | `dexec` |
-| [kubectl](https://kubernetes.io/docs/tasks/tools/) | `kctx`, `kpod`, `ktop` |
+| [docker](https://www.docker.com/) | `dcon` |
+| [kubectl](https://kubernetes.io/docs/tasks/tools/) | `kctx`, `kpod` |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | fzf default command |
-| [bat](https://github.com/sharkdp/bat) | `notes` (optional, falls back to `cat`) |
+| [helix](https://helix-editor.com/) | `note`, `notes` |
 
 ## Commands
 
