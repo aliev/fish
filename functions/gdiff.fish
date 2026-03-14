@@ -1,4 +1,4 @@
-function fd -d "Browse git diff with fzf"
+function gdiff -d "Browse git diff with fzf"
     git rev-parse --git-dir >/dev/null 2>&1; or return
     set -l files (git diff $argv --name-only 2>/dev/null)
     test -z "$files"; and echo "No changes." && return

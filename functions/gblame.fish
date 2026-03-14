@@ -1,4 +1,4 @@
-function fblame -d "Browse git blame with fzf"
+function gblame -d "Browse git blame with fzf"
     git rev-parse --git-dir >/dev/null 2>&1; or return
 
     while true
