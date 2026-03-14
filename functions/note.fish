@@ -1,5 +1,5 @@
-function note -d "Create a note in ~/notes and open in Helix"
-    set -l notes_dir ~/notes
+function note -d "Create a note in ~/Documents/notes and open in Helix"
+    set -l notes_dir ~/Documents/notes
 
     if test (count $argv) -eq 0
         echo "usage: note idea <topic>      → ideas/"

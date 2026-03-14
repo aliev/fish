@@ -1,3 +1,3 @@
 function notes -d "Open notes vault in Helix"
-    hx ~/notes
+    hx ~/Documents/notes
 end
