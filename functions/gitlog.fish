@@ -1,4 +1,4 @@
-function glog -d "Browse git log with fzf"
+function gitlog -d "Browse git log with fzf"
     git rev-parse --git-dir >/dev/null 2>&1; or return
 
     git log --oneline --color=always $argv | fzf --ansi --no-sort \
