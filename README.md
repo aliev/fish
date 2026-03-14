@@ -15,8 +15,7 @@ fisher install aliev/fish
 | Dependency | Required by |
 |---|---|
 | [fzf](https://github.com/junegunn/fzf) | all commands |
-| [git](https://git-scm.com/) | `gitlog`, `gitdiff`, `gitblame`, `ghpr` |
-| [gh](https://cli.github.com/) | `ghpr` |
+| [git](https://git-scm.com/) | `gitlog`, `gitdiff` |
 | [docker](https://www.docker.com/) | `dexec` |
 | [kubectl](https://kubernetes.io/docs/tasks/tools/) | `kctx`, `kpod`, `ktop` |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | fzf default command |
@@ -30,8 +29,6 @@ fisher install aliev/fish
 |---|---|
 | `gitlog` | Browse git log with fzf preview |
 | `gitdiff` | Browse changed files with inline diff preview |
-| `gitblame` | Browse files and their git blame interactively |
-| `ghpr` | Browse and open pull requests via GitHub CLI |
 
 ### Kubernetes
 
