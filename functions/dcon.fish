@@ -3,7 +3,7 @@ function dcon --description "Interactive Docker container manager: exec, logs"
     printf '#!/bin/sh\nCID=$(echo "$1" | awk "{print \\$1}")\nshift\nexec docker "$@" "$CID"\n' >$helper
     chmod +x $helper
 
-    set -l line (docker ps --format "table {{.ID}}\t{{.Names}}\t{{.Image}}\t{{.Status}}\t{{.Ports}}" | fzf --height=50% \
+    set -l line (docker ps --format "table {{.ID}}\t{{printf \"%.30s\" .Names}}\t{{.Image}}\t{{.Status}}" | fzf --height=50% \
         --prompt="Container> " \
         --header-first \
         --header="enter: exec | ctrl-l: logs" \
