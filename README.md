@@ -42,7 +42,7 @@ fisher install aliev/fish
 
 | Command | Description |
 |---|---|
-| `dexec` | Exec into a running container (bash/sh) |
+| `dcon` | Interactive container manager (enter: exec, ctrl-l: logs) |
 
 ### Notes
 
