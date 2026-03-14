@@ -18,7 +18,7 @@ fisher install aliev/fish
 | [git](https://git-scm.com/) | `gitlog`, `gitdiff`, `gitblame`, `ghpr` |
 | [gh](https://cli.github.com/) | `ghpr` |
 | [docker](https://www.docker.com/) | `dexec` |
-| [kubectl](https://kubernetes.io/docs/tasks/tools/) | `kctx`, `kexec`, `klogs`, `ktop` |
+| [kubectl](https://kubernetes.io/docs/tasks/tools/) | `kctx`, `kpod`, `ktop` |
 | [ripgrep](https://github.com/BurntSushi/ripgrep) | fzf default command |
 | [bat](https://github.com/sharkdp/bat) | `notes` (optional, falls back to `cat`) |
 
@@ -38,8 +38,7 @@ fisher install aliev/fish
 | Command | Description |
 |---|---|
 | `kctx` | Switch Kubernetes context |
-| `kexec` | Exec into a pod (bash/sh) |
-| `klogs` | Stream pod logs (`-p` for previous) |
+| `kpod` | Interactive pod manager (enter: exec, ctrl-l: logs, ctrl-p: prev logs) |
 | `ktop` | Live pod CPU/memory dashboard (`-s cpu\|mem`, `-i` interval) |
 
 ### Docker
@@ -52,5 +51,5 @@ fisher install aliev/fish
 
 | Command | Description |
 |---|---|
-| `note` | Create a note in `~/notes` by category (daily, projects, people, learning, ideas) |
-| `notes` | Fuzzy-search and open notes from `~/notes` |
+| `note` | Create a note in `~/Documents/notes` by category (daily, projects, people, learning, ideas) |
+| `notes` | Open notes vault in Helix |
