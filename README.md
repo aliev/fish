@@ -36,7 +36,6 @@ fisher install aliev/fish
 |---|---|
 | `kctx` | Switch Kubernetes context |
 | `kpod` | Interactive pod manager (enter: exec, ctrl-l: logs, ctrl-p: prev logs) |
-| `ktop` | Live pod CPU/memory dashboard (`-s cpu\|mem`, `-i` interval) |
 
 ### Docker
 
